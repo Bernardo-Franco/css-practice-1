@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+ 
+ * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} 
+img {display: block;}
+
+body {
+    font-family: 'Caveat', sans-serif; 
+    min-height: 100vh;
+    /*background-color: aliceblue;
+    background-image:   url("image/bubbles.png"), 
+                        linear-gradient(to left,steelblue, #fff);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    background-size: 20%, auto; /* the firts parameter is for the bubbles background the second one for the linear-gradient */
+}
+.clip {
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url("image/scenic-2200x1331.png");
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text; /*  ->> it makes the font have the img, but remenber to set the transparency of the color of the font so the img can be seen as is down here ---v   */
+    background-clip: text; /* and this is, so it can work in firefox and other navs*/
+    color:hsla(0, 0%, 0%, 0.201);
+}
